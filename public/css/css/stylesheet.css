@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  outline: none;
+  border: none;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+         -box-sizing: border-box;
+}
+/**
+* =======================================================
+* Estido páginas Login
+* =======================================================
+*/
+body {
+  background-image: url('bg-login.jpg');
+  background-color: #f1f1f1;
+}
+section#conteudo-view{
+  position: absolute;
+  right: 0;
+  float: right;
+  width: 300px;
+  height: 100%;
+  background: #51dca6;
+}
+section#conteudo-view h1{
+  font: 3em 'Fredoka One', cursive;
+}
+section#conteudo-view h1{
+  font: .8em 'Fredoka One', cursive;
+}

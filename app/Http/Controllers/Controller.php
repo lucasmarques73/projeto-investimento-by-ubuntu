@@ -10,4 +10,20 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+
+    public function homepage()
+    {
+        echo "homepage";
+    }
+
+    /*
+    * =====================================================================
+    * Metodo para View de Login de Usuário
+    * =====================================================================
+    */
+    public function fazerLogin()
+    {
+      return view('user.login');
+    }
 }

@@ -10,7 +10,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/',['uses' => 'Controller@homepage']);
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+/*
+* =====================================================================
+* Rotas para Autenticação
+* =====================================================================
+*/
+Route::get('/login',['uses' => 'Controller@fazerLogin']);
+Route::post('/login',['as' => 'user.login', 'uses' => 'Controller@login']);
