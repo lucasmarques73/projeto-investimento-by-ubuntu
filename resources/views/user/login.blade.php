@@ -5,10 +5,12 @@
     <title>Login | Investindo</title>
     <link rel="stylesheet" href="{{ asset('css/stylesheet.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
-    
+
   </head>
   <body>
 
+    <div class="background">
+    </div>
     <section id="conteudo-view" class="login">
 
 
